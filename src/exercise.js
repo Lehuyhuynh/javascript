@@ -1,4 +1,4 @@
-function sum(a,b){
-                    return a+b;
+function Stringlength(n){
+  return n.toString().length;                 
 }
-module.exports = sum
+module.exports = Stringlength
