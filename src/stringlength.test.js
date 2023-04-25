@@ -1,4 +1,4 @@
-const Stringlength = require("./exercise");
+const Stringlength = require("./stringlength");
 
 test("for 1 string 'had' of length 3", () => {
   expect(Stringlength("had")).toBe(3);
