@@ -1,4 +1,4 @@
-function uniq(myArray){
+function uniqArrayObject(myArray){
   let text=[]
     let letters =new Set(myArray);
     
@@ -8,4 +8,5 @@ function uniq(myArray){
     });
      return text
   }
-module.exports=uniq
+module.exports=uniqArrayObject
+console
