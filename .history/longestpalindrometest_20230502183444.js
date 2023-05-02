@@ -1,8 +1,7 @@
-const subsequence = require("./subsequence ");
+const subsequence = require("./longestpalindrome");
 
 test('Viết chương trình nhập hai chuỗi và trả về dãy con chung dài nhất của hai chuỗi.', () => {
-  const s1 ="abcdef";
-  const s2="abczyzcdef";
+  const s ="Abc def";
   const sortedArr = subsequence (s1,s2);
   expect(sortedArr).toEqual("cdef");
 });
